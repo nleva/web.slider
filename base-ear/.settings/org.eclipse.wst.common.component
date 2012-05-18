@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="base-ear">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="base-web.war" deploy-path="/" handle="module:/resource/base-web/base-web">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gxt-3.0.0.jar" deploy-path="/" handle="module:/classpath/lib/base-lib/gwt/gxt-3.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gxt-legacy-3.0.0.jar" deploy-path="/" handle="module:/classpath/lib/base-lib/gwt/gxt-legacy-3.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gxt-chart-3.0.0.jar" deploy-path="/" handle="module:/classpath/lib/base-lib/gwt/gxt-chart-3.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="uibinder-bridge-2.4.0.jar" deploy-path="/" handle="module:/classpath/lib/base-lib/gwt/uibinder-bridge-2.4.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gxt-2.2.5-gwt22.jar" deploy-path="/" handle="module:/classpath/lib/base-lib/gwt/gxt-2.2.5-gwt22.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gwt-jquery.jar" deploy-path="/" handle="module:/classpath/lib/base-lib/gwt/gwt-jquery.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

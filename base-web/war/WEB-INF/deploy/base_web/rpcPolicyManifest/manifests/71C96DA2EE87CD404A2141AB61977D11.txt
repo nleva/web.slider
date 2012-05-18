@@ -1,0 +1,2 @@
+serviceClass: ru.sendto.web.client.GreetingService
+path: 97EF76F75DD67F3F4A9E2B82C3E59614.gwt.rpc
